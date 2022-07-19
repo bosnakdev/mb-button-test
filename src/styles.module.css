@@ -1,9 +1,284 @@
 /* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+.primary {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
   text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px #00000004;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #000000d9;
+  border-color: #d9d9d9;
+  background: #fff;
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px #0000000b;
+}
+
+.primary:hover,
+.primary:focus {
+  color: #fff;
+  border-color: #40a9ff;
+  background: #40a9ff;
+}
+
+.danger{
+  border-color: #ff4d4f;
+  background: #ff4d4f;
+}
+
+.danger:hover,
+.danger:focus {
+  color: #fff;
+  border-color: #ff7875;
+  background: #ff7875;
+}
+
+.success{
+  border-color: #52c41a;
+  background: #52c41a;
+}
+
+.success:hover,
+.success:focus {
+  color: #fff;
+  border-color: #73d13d;
+  background: #73d13d;
+}
+
+.warning{
+  border-color: #faad14;
+  background: #faad14;
+}
+
+.warning:hover,
+.warning:focus {
+  color: #fff;
+  border-color: #ffc53d;
+  background: #ffc53d;
+}
+
+.default {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px #00000004;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #000000d9;
+  border-color: #d9d9d9;
+  background: #fff;
+}
+
+.default:hover,
+.default:focus {
+  color: #40a9ff;
+  border-color: #40a9ff;
+  background: #fff;
+}
+.primary:hover,
+.primary:focus {
+  background: #fff;
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
+.danger:hover,
+.danger:focus {
+  background: #fff;
+  border-color: #ff7875;
+  color: #ff7875;
+}
+.success:hover,
+.success:focus {
+  background: #fff;
+  border-color: #73d13d;
+  color: #73d13d;
+}
+.warning:hover,
+.warning:focus {
+  background: #fff;
+  border-color: #ffc53d;
+  color: #ffc53d;
+}
+.dashed {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px #00000004;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #000000d9;
+  border-color: #d9d9d9;
+  border-style: dashed;
+  background: #fff;
+}
+
+.dashed:hover,
+.dashed:focus {
+  color: #40a9ff;
+  border-color: #40a9ff;
+  background: #fff;
+}
+.primary:hover,
+.primary:focus {
+  background: #fff;
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
+.danger:hover,
+.danger:focus {
+  background: #fff;
+  border-color: #ff7875;
+  color: #ff7875;
+}
+.success:hover,
+.success:focus {
+  background: #fff;
+  border-color: #73d13d;
+  color: #73d13d;
+}
+.warning:hover,
+.warning:focus {
+  background: #fff;
+  border-color: #ffc53d;
+  color: #ffc53d;
+}
+.text {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #000000d9;
+  background: #fff;
+  border-color: transparent;
+  background: 0 0;
+  box-shadow: none;
+}
+
+.text:hover,
+.text:focus {
+  color: #000000d9;
+  background: rgba(0, 0, 0, .018);
+  border-color: transparent;
+}
+.link {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #1890ff;
+  background: #fff;
+  border-color: transparent;
+  background: 0 0;
+  box-shadow: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #1890ff;
+  background: 0 0;
+  border-color: transparent;
+}
+
+.link.primary:hover,
+.link.primary:focus {
+  color: #40a9ff;
+}
+.link.danger:hover,
+.link.danger:focus {
+  color: #ff7875;
+}
+.link.success:hover,
+.link.success:focus {
+  color: #73d13d;
+}
+.link.warning:hover,
+.link.warning:focus {
+  color: #ffc53d;
+}
+
+.link.primary{
+  color: #1890ff;
+}
+.link.danger {
+  color: #ff4d4f;
+}
+.link.success {
+  color: #52c41a;
+}
+.link.warning {
+  color: #faad14;
 }
